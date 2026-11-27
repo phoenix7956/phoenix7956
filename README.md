@@ -6,6 +6,8 @@
 
 [**盘古 Pangu**](https://github.com/phoenix7956/pangu) 是那个最后用户能摸到的 AI Agent —— 开源的通用 AI Agent 内核（Node / TypeScript），带 HTTP API 和零构建 Web 控制台。
 
+主力编码 agent 是 **Codex** —— 大部分活都是它在这台 Mac 上干的。
+
 ---
 
 ## 🟢 Active Projects
@@ -54,11 +56,14 @@
 
 ## 📡 Activity
 
-- **盘古**: `/Users/feng/Desktop/开源/pangu`（仓库 `phoenix7956/pangu`，Apache-2.0），本地跑在 `:18901`
-- **OpenBot**: 多 Agent 派活总控（`~/Applications/OpenBot.app` · `~/.craft-anything` · `:8790`）—— 本机 + 局域网节点
+- **Codex**: 主力编码 agent —— `~/.codex/`（AGENTS.md / skills / config.toml），桌面端 `/Applications/Codex.app`
+- **盘古 Pangu**: 开源内核在 `~/Desktop/开源/pangu`（仓库 `phoenix7956/pangu`，Apache-2.0）；跑着的是运行时实例 `~/Desktop/pangu`，本地监听 `:18901`
+- **OpenBot**: 多 Agent 派活总控（`~/Applications/OpenBot.app` · `~/.craft-anything-studio` · `:8790`）—— 本机 + 局域网节点
+- **Marvis**: 多模态助手（`~/Applications/Mavis`）
+- **Claude Code**: `2.1.207` —— 副驾 / code review
 - **GitHub 巡检 cron**: 已停（ticker 最后成功 2026-08-17）
-- **Hermes / OpenClaw**: 已下线 —— OpenClaw 2026-07 并入 Hermes；Hermes 入口已不在 PATH，最后一次活动 2026-11-15，`~/.hermes/` 留着 5.8G 数据
+- **Hermes / OpenClaw**: 早已下线 —— 两者入口都是死链（`~/.local/bin/openclaw` 指向已删的 `~/.hermes/node/...`），无进程在跑；只剩 `~/.hermes/` 5.8G 旧档案和 `~/.mc3/instances/mo-openclaw/` 的状态文件
 
 ---
 
-<sub>Last registry update: 2026-11-27 by Codex —— 活跃 6 个（+ 本索引）</sub>
+<sub>Last registry update: 2026-11-27 by Codex —— 活跃 6 个（+ 本索引）· 本机在跑：Codex / 盘古 / OpenBot / Marvis / Claude Code</sub>
