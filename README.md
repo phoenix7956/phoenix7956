@@ -57,7 +57,7 @@
 - **盘古**: `/Users/feng/Desktop/开源/pangu`（仓库 `phoenix7956/pangu`，Apache-2.0），本地跑在 `:18901`
 - **OpenBot**: 多 Agent 派活总控（`~/Applications/OpenBot.app` · `~/.craft-anything` · `:8790`）—— 本机 + 局域网节点
 - **GitHub 巡检 cron**: 已停（ticker 最后成功 2026-08-17）
-- **Hermes / OpenClaw**: 已下线 —— OpenClaw 2026-07 并入 Hermes，Hermes 入口随后也停用（`~/.hermes/` 只剩历史归档）
+- **Hermes / OpenClaw**: 已下线 —— OpenClaw 2026-07 并入 Hermes；Hermes 入口已不在 PATH，最后一次活动 2026-11-15，`~/.hermes/` 留着 5.8G 数据
 
 ---
 
