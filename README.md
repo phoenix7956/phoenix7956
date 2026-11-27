@@ -1,10 +1,10 @@
 # Hi, I'm phoenix7956 👋
 
-> 冯 · Hermes King · Mac M5 Max — AI Agent + 工具生态
+> 冯 · Mac M5 Max — AI Agent + 工具生态
 
 我做 **AI Agent 内核**和**本地 AI 应用**。
 
-Hermes 是入口（macOS gateway），OpenClaw 是翼（工具与自动化），**盘古是那个最后用户能摸到的 AI Agent** —— 开源的通用 AI Agent 内核（Node / TypeScript），带 HTTP API 和零构建 Web 控制台。
+[**盘古 Pangu**](https://github.com/phoenix7956/pangu) 是那个最后用户能摸到的 AI Agent —— 开源的通用 AI Agent 内核（Node / TypeScript），带 HTTP API 和零构建 Web 控制台。
 
 ---
 
@@ -20,7 +20,7 @@ Hermes 是入口（macOS gateway），OpenClaw 是翼（工具与自动化），
 | [`claude-review`](https://github.com/phoenix7956/claude-review) | TypeScript / GitHub Action | v0.1 · 低频维护 | Claude Code agent that posts structured Markdown review comments on PRs |
 
 > 账号级 SSH key **一把**（`mac-mini`）覆盖全部仓库 —— 不再需要 per-repo deploy key。
-> `~/.ours/bin/gh-clone <仓库名>` 直接克隆，push 开箱即用。
+> `~/.ours/bin/gh-clone <仓库名>` 直接克隆，push 开箱即用 —— `~/.gitconfig` 里 `insteadOf` 把 `https://github.com/` 改写成 `ssh://git@ssh.github.com:443/`。
 
 ---
 
@@ -54,10 +54,10 @@ Hermes 是入口（macOS gateway），OpenClaw 是翼（工具与自动化），
 
 ## 📡 Activity
 
-- **GitHub 巡检 cron**: 每 24h 拉 **4** 个 repo 动态 + /notifications 收件箱
-- **Hermes**: macOS 入口 (gateway `~/.hermes/`)
-- **OpenClaw**: 18789 端口
-- **盘古**: `/Users/feng/Desktop/开源/pangu`（仓库 `phoenix7956/pangu`，Apache-2.0）
+- **盘古**: `/Users/feng/Desktop/开源/pangu`（仓库 `phoenix7956/pangu`，Apache-2.0），本地跑在 `:18901`
+- **OpenBot**: 多 Agent 派活总控（`~/Applications/OpenBot.app` · `~/.craft-anything` · `:8790`）—— 本机 + 局域网节点
+- **GitHub 巡检 cron**: 已停（ticker 最后成功 2026-08-17）
+- **Hermes / OpenClaw**: 已下线 —— OpenClaw 2026-07 并入 Hermes，Hermes 入口随后也停用（`~/.hermes/` 只剩历史归档）
 
 ---
 
